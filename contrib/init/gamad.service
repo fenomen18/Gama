@@ -1,0 +1,22 @@
+[Unit]
+Description=Gama's distributed currency daemon
+After=network.target
+
+[Service]
+User=gamacore
+Group=gamacore
+
+Type=forking
+PIDFile=/var/lib/gamad/gamad.pid
+ExecStart=/usr/bin/gamad -daemon -pid=/var/lib/gamad/gamad.pid \
+-conf=/etc/gamacore/gama.conf -datadir=/var/lib/gamad -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gama
+Comment=Gama P2P Cryptocurrency
+Comment[fr]=Gama, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Gama, eşten eşe kriptografik sanal para birimi
+Exec=gama-qt %u
+Terminal=false
+Type=Application
+Icon=gama128
+MimeType=x-scheme-handler/gama;
+Categories=Office;Finance;

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/gama_bg.qm</file>
+        <file alias="de">locale/gama_de.qm</file>
+        <file alias="en">locale/gama_en.qm</file>
+        <file alias="es">locale/gama_es.qm</file>
+        <file alias="fi">locale/gama_fi.qm</file>
+        <file alias="fr">locale/gama_fr.qm</file>
+        <file alias="it">locale/gama_it.qm</file>
+        <file alias="ja">locale/gama_ja.qm</file>
+        <file alias="pl">locale/gama_pl.qm</file>
+        <file alias="pt">locale/gama_pt.qm</file>
+        <file alias="ru">locale/gama_ru.qm</file>
+        <file alias="sk">locale/gama_sk.qm</file>
+        <file alias="sv">locale/gama_sv.qm</file>
+        <file alias="vi">locale/gama_vi.qm</file>
+        <file alias="zh_CN">locale/gama_zh_CN.qm</file>
+        <file alias="zh_TW">locale/gama_zh_TW.qm</file>
+    </qresource>
+</RCC>

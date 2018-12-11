@@ -1,0 +1,6 @@
+usr/local/bin/gama-qt usr/bin
+share/pixmaps/gama32.xpm usr/share/pixmaps
+share/pixmaps/gama16.xpm usr/share/pixmaps
+share/pixmaps/gama128.png usr/share/pixmaps
+debian/gama-qt.desktop usr/share/applications
+debian/gama-qt.protocol usr/share/kde4/services/
